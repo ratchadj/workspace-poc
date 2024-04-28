@@ -1,27 +1,27 @@
 {
-  "offlineAccess": true,
-  "licenseKey": "30d861ec-50b9-47b2-825c-1dbe6bfe8cc9",
-  "devtools_port": 9090,
-  "runtime": {
-    "version": "34.118.78.80",
-    "arguments": "--security-realm=LSEG --enable-mesh --no-sandbox --disable-web-security"
-  },
-  "snapshot": {
-    "windows": []
-  },
-  "platform": {
-    "uuid": "10dd4600-afac-410f-b793-0ce3cac690c4",
-    "name": "Workspace POC",
-    "autoShow": false,
-    "_enableAppLogging": true,
-    "_logManagement": {
-      "enabled": true
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "Hello OpenFin",
+        "url": "https://rawcdn.githack.com/ratchadj/workspace-poc/master/index.html",
+        "uuid": "OpenFinHelloWorld",
+        "applicationIcon": "https://cdn.openfin.co/demos/hello/img/openfin.ico",
+        "autoShow": false,
+        "defaultHeight": 525,
+        "defaultWidth": 395,
+        "maxWidth": 395,
+        "maxHeight": 525,
+        "defaultTop": 50,
+        "defaultLeft": 10,
+        "resizable": false,
+        "maximizable": false,
+        "frame": false,
+        "cornerRounding": {
+            "width": 5,
+            "height": 5
+        }
     },
-    "providerUrl": "https://workspace.ppe.refinitiv.com/public/workspace/2.1.0.34/index.html",
-    "icon": "https://workspace.refinitiv.com/public/libs/workspace-assets/favicon.ico",
-    "preventQuitOnLastWindowClosed": true,
-    "contextMenu": true,
-    "viewProcessAffinityStrategy": "different",
-    "enableJumpList": true
-  }
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    }
 }
