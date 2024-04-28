@@ -17,7 +17,7 @@
     "_logManagement": {
       "enabled": true
     },
-    "providerUrl": "https://raw.githubusercontent.com/ratchadj/workspace-poc/master/index.html",
+    "providerUrl": "https://rawcdn.githack.com/ratchadj/workspace-poc/master/index.html",
     "icon": "https://workspace.refinitiv.com/public/libs/workspace-assets/favicon.ico",
     "preventQuitOnLastWindowClosed": true,
     "contextMenu": true,
