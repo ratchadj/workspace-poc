@@ -9,6 +9,14 @@
   "snapshot": {
     "windows": []
   },
+  "startup_app": {
+    "name": "Workspace POC",
+    "url": "https://rawcdn.githack.com/ratchadj/workspace-poc/master/index.html",
+    "uuid": "workspace-poc-uuid",
+    "autoShow": true,
+    "defaultWidth": 800,
+    "defaultHeight": 600
+  },
   "platform": {
     "uuid": "10dd4600-afac-410f-b793-0ce3cac690c4",
     "name": "Workspace POC",
